@@ -1,4 +1,5 @@
 import pandas
+from textblob import TextBlob as tb
 
 file_name = "../data/pizza/pizza.json"
 
