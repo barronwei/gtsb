@@ -15,5 +15,11 @@ cols = complete.columns
 len(complete)
 complete.head()
 
-sentiment = [tb(s).sentiment.polarity for s in complete[cols[1]]]
-complete.assign(sentiment=sentiment)
+sent_text = [tb(s).sentiment.polarity for s in complete[complete_cols[1]]]
+sent_head = [tb(s).sentiment.polarity for s in complete[complete_cols[2]]]
+comp = complete.assign(sentiment_text=sent_text, sentiment_head=sent_head)
+
+comp_cols = comp.columns
+stats = [comp[c].describe() for c in comp_cols]
+
+comp.corr()

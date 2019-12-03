@@ -12,3 +12,8 @@ HEB 1392
 - Add requirements.txt
 - Add TextBlob for sentiment analysis
 - Start analyzing text
+
+# 0.0.3
+
+- Add aggregation of data analysis
+- Introduce function abstraction for data analysis
