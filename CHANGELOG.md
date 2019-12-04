@@ -17,3 +17,11 @@ HEB 1392
 
 - Add aggregation of data analysis
 - Introduce function abstraction for data analysis
+
+# 0.0.4
+
+- Update requirements.txt
+- Update .gitignore
+- Add data
+- Add graph visuals
+- Conclude analysis
