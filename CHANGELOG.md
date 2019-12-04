@@ -25,3 +25,10 @@ HEB 1392
 - Add data
 - Add graph visuals
 - Conclude analysis
+
+# 0.0.5
+
+- Add ttest
+- Add check for significance
+- Introduce function anbstraction for ttest
+- Document code
