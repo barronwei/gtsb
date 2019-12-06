@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sb
 import textblob as tb
 
-file_name = "../data/pizza/pizza.json"
+file_name = "../data/pizza.json"
 
 data = pd.read_json(file_name)
 cols = data.columns
